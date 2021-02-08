@@ -34,7 +34,7 @@ def profile():
             'password':password
         }
 
-        if ((name == 'rajat')&(password == '12345678')):
+        if ((name == 'rajat')&(password == '12345')):
             return render_template('home_page.html')
 
 @app.route("/data_display", methods=['POST'])
