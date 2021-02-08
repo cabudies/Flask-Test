@@ -55,5 +55,9 @@ def data_display():
 
         return render_template('data_display.html', data=details)
 
+@app.route("/sample")
+def sample():
+    return "sample value returned"
+
 if __name__ == "__main__":
     app.run(debug=True)
